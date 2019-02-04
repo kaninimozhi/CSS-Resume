@@ -1,0 +1,53 @@
+#title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em; /* 1em = 16px */
+}
+
+.center{
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("prism.png");
+    color: cornsilk;
+    text-shadow: 0.05em 0.05em black; 
+  }
+
+  a {
+    color: rgb(220, 224, 181);
+  }
+
+  img {
+    margin-left: 2em;
+    float: left;
+  }
+
+  .outline{
+      outline-style: groove;
+      outline-color: blanchedalmond;
+      outline-offset: 0.5em;
+      color: burlywood;
+  }
+
+  /* styles the entire table */
+  #skills {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+
+  /*style each row and heading element */
+  #skills td, #customers th {
+    border: 1px solid rgb(245, 248, 229);
+    padding: 8px;
+    text-align: center;
+  }
+
+  
